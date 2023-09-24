@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="48sp"
         android:layout_marginTop="160dp"
-
+        android:inputType="phone"
         android:hint="enter your hight in cm"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -38,7 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="48sp"
         android:layout_marginTop="268dp"
-
+        android:inputType="phone"
         android:hint="enter your weight in kg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,9 +46,9 @@
 
     <Button
         android:id="@+id/b1"
-        android:layout_width="wrap_content"
+        android:layout_width="200sp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="244dp"
+        android:layout_marginBottom="284dp"
         android:text="Calculate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
